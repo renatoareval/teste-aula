@@ -1,4 +1,3 @@
-
 import { describe, expect, it, jest, } from '@jest/globals';
 import Usuario from '../../models/Usuario.js';
 import UsuarioController from '../../controllers/UsuarioController.js';
@@ -14,7 +13,7 @@ describe('Deve retornar os testes de unidade de Usuario', () => {
     };
 
     it('Deve Instancia uma nova usuario', () => {
-        const usuario = new Usuario(objetoUsuario);
+        const usuario = new usuario(objetoUsuario);
     });
 
     it('Deve fazer uma chamada simulada de cadastro ao BD', () => {
@@ -34,6 +33,5 @@ describe('Deve retornar os testes de unidade de Usuario', () => {
         }));
     });
 });
-
 
 
